@@ -20,3 +20,14 @@
  * and
  * concat
  */
+
+const isTrue = input => input === true;
+const isFalse = input => input === false;
+const not = input => !input;
+const addOne = input => parseFloat(input) + 1;
+const isEven = input => parseFloat(input) % 2 === 0;
+const isIdentical = (input1, input2) => input1 === input2;
+const isEqual = (input1, input2) => input1 == input2;
+const or = (input1, input2) => input1 || input2;
+const and = (input1, input2) => input1 && input2;
+const concat = (input1, input2) => String(input1) + String(input2);
